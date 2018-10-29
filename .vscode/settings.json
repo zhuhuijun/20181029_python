@@ -1,0 +1,8 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+  "python.linting.enabled": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all"
+}
