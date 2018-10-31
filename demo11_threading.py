@@ -13,7 +13,7 @@ def test(args):
 
 info=[1,2,3,4,55,344]
 thres=[]
-for i in range(0,len(info)):
+for i in xrange(0,len(info)):
     thi = threading.Thread(target=test,args=[info[i]])
     thi.start()
     thres.append(thi)
