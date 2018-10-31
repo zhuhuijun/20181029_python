@@ -12,10 +12,10 @@ def get_code(url):
     html = urllib.urlopen(url).read()
     re_title='<title>(.*)</title>'
     title = re.findall(re_title,html)
-    print(html)
+    #print(html)
     print(title[0])
 
-info=['http://www.sina.com','http://www.sohu.com','http://www.163.com']
+info=['http://www.sina.com','http://www.sohu.com','http://www.baidu.com']
 thresds=[]
 d = xrange(0,len(info))
 for i in d:
